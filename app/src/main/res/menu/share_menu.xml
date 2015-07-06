@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Details">
+        <item
+            android:id="@+id/menu_item_share"
+            android:showAsAction="always"
+            android:title="Share"
+
+    /><item
+    android:id="@+id/save"
+    android:showAsAction="always"
+    android:title="Save"
+
+    />
+    <!--android:actionProviderClass=-->
+    <!--"android.widget.ShareActionProvider"-->
+    </menu>

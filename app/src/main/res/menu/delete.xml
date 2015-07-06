@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Details">
+    <item
+        android:id="@+id/MENU_DELETE"
+        android:showAsAction="always"
+        android:title="Delete"
+
+        />
+    <!--android:actionProviderClass=-->
+    <!--"android.widget.ShareActionProvider"-->
+</menu>

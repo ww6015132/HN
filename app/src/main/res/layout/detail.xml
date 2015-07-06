@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Linear"
+    android:weightSum="1"
+    >
+
+
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="Image"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:text="New Text"
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:gravity="center"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="author"
+        android:id="@+id/author"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="25px"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:id="@+id/date"
+        android:gravity="right"
+        android:textStyle="italic"
+        android:textSize="25px"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No description"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_weight="0.40" />
+
+</LinearLayout>
+</ScrollView>
